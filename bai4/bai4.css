@@ -1,0 +1,36 @@
+.heading{
+    text-align: center;
+    color: #1565C0 ;
+}
+img{
+    width: 100%;
+    border-radius: 16px;
+}
+.content{
+    font-size: x-large;
+}
+.para1{
+    text-align: justify;
+}
+.para1::first-letter{
+    initial-letter: 2;
+    color: #C62828 ;
+    font-weight: bold;
+}
+.para3{
+    text-align: justify;
+}
+.para3::first-letter{
+    initial-letter: 2; 
+    color: #C62828;
+    font-weight: bold;
+}
+.para2{
+    text-align: right;
+    background-color:#1565C0;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+span{
+    font-weight: bold;
+}

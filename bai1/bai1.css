@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: #fffde7;
+}
+hr{
+    color: blue;
+    width: 10cm;
+}
+.heading{
+    background-color: #ffd9d6;
+    color: #d40000;
+    border: #9e9e9e;
+    border-radius: 16px;
+    font-weight: bold;
+}
+p{
+    font-style: italic;
+}
+.k1{
+    color: #03c
+}
+.k2{
+    color: #d40000;
+}
+.k3{
+    color: #03c;
+}

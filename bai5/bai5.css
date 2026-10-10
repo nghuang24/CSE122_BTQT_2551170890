@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    color: #C2185B;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    font-weight: bold;
+    background-color:  #FFC0CB ;
+    width: 25%;
+}
+h6{
+    text-align: right;
+    color: #0000EE;
+    text-decoration: underline;
+}
+img{
+    margin: 25px;
+}

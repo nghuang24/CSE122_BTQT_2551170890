@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(purple, pink);
+    color: white;
+    margin: 0; /* Xóa khoảng trắng viền mặc định của trình duyệt */
+    min-height: 100vh; /* Ép chiều cao tối thiểu bằng 100% chiều cao màn hình hiển thị */
+    background-repeat: no-repeat; /* Ngăn chặn việc lặp lại background */
+    background-attachment: fixed; /* Giúp dải màu mượt mà và cố định ngay cả khi trang có thanh cuộn */
+}
+.heading{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+p{
+    text-align: justify;
+    font-size: larger;
+}
+img{
+    float: right;
+    margin-left: 25px;
+    border: 2px solid ;
+    border-color: white;
+    border-radius: 16px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.image{  
+    display: block;
+}
