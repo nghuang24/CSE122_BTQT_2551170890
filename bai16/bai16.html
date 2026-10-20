@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quản lý việc cần làm</title>
+        <link rel="stylesheet" href="bai16.css">
+    </head>
+    <body>
+        <main class="ung-dung">
+            <header class="tieu-de">
+                <h1>Việc cần làm</h1>
+                <p>Ghi lại việc, tick hoàn thành, quản lý từng ngày</p>
+            </header>
+
+            <!-- Đã sửa id="from-them" thành id="form-them" -->
+            <form id="form-them" class="hang-them">
+                <input type="text" id="o-nhap" placeholder="Nhập việc cần làm..." autocomplete="off">
+                <button type="submit" class="nut-them">Thêm</button>
+            </form>
+
+            <ul id="danh-sach" class="danh-sach"></ul>
+
+            <p id="thong-ke" class="thong-ke"></p>
+        </main>
+        <script src="bai16.js"></script>
+    </body>
+</html>

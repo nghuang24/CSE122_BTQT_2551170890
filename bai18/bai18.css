@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffbf3;
+}
+
+.bai-viet{
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 28px 22px;
+}
+
+.tieu-de{
+    color: #e65100;
+    line-height: 1.3;
+    margin: 0 0 18px;
+}
+
+.title {
+    color: #e65100;
+}
+
+.anh-hoa{
+    float: right;
+    width: 240px;
+    margin: 6px 0 14px 20px;
+    border-radius: 10px;
+}
+
+.doan-van-1{
+    text-align: justify;
+    line-height: 1.8;
+    color: #444;
+}
+
+.doan-van-2{
+    text-align: justify;
+    line-height: 1.8;
+    color: #444;
+}
+
+.doan-van-1::first-letter{
+    initial-letter: 2;
+    color: #e65100;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+.bai-viet::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.khoi-phu{
+    border: 2px solid #2e7d32;
+    background: #f4fbf4;
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-top: 22px;
+}
+.tieu-de-khoi{
+    color: #2e7d32;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0 0 12px;
+}
+.danh-sach{
+    margin: 0;
+    padding :10px left;
+    color: #333;
+    list-style-image: url('Bai18/icon_list_c.gif');
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 23px;
+}
+
+li{
+    font-size:medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

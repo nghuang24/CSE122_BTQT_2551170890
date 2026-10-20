@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai20.css">
+</head>
+
+<body>
+    <main class="khung-tong">
+        <h1>Special For You</h1>
+        <div class="khung-anh">
+            <svg width="0" height="0" style="position: absolute;">
+                <filter id="wave">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.15 0.08" numOctaves="1" result="song" />
+                    <feDisplacementMap in="SourceGraphic" in2="song" scale="18" />
+                </filter>
+            </svg>
+
+            <img src="Bai20/hoahong.gif" alt="" id="anh-hoa-hong" class="anh">
+        </div>
+
+        <div class="thanh-nut" id="thanh-nut">
+            <button data-hieu-ung="gray">Gray</button>
+            <button data-hieu-ung="xray">Xray</button>
+            <button data-hieu-ung="invert">Invert</button>
+            <button data-hieu-ung="fliph">FlipH</button>
+            <button data-hieu-ung="flipv">FlipV</button>
+            <button data-hieu-ung="glow">Glow</button>
+            <button data-hieu-ung="shadow">Shadow</button>
+            <button data-hieu-ung="boldshadow">Bold Shadow</button>
+            <button data-hieu-ung="dropshadow">DropShadow</button>
+            <button data-hieu-ung="blur">Blur</button>
+            <button data-hieu-ung="wave">Wave</button>
+            <button data-hieu-ung="mask">Mask</button>
+            <button data-hieu-ung="alpha">Alpha</button>
+        </div>
+    </main>
+    <script src="bai20.js"></script>
+</body>
+
+</html>

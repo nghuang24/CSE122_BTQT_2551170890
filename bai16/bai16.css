@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f0fa;
+    min-height: 100vh;
+    padding: 40px 16px;
+    box-sizing: border-box;
+}
+
+.ung-dung{
+    max-width: 600px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.tieu-de{
+    background: #6d28d9;
+    color: #FFFFFF;
+    padding: 20px 24px;
+}
+
+.tieu-de h1{
+    margin: 0 0 4px;
+    font-size: 1.3rem;
+}
+
+.tieu-de p{
+    margin: 0;
+    opacity: 0.85;
+    font-size: 0.9rem;
+}
+
+.hang-them{
+    display: flex;
+    gap: 10px;
+    padding: 16px 24px;
+}
+
+#o-nhap{
+    flex: 1;
+    padding: 10px ,14px;
+    border: 2px solid #a78bfa;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+#o-nhap:focus{
+    outline: none;
+    border-color: #6d28d9;
+}
+
+.nut-them{
+    background: #6d28d9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 0 22px;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.nut-them hover{
+    filter: brightness(1.15);
+}
+
+.danh.sach{
+    list-style: none;
+    margin: 0;
+    padding: 0 24px;
+}
+
+.danh.sach li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ede3fe;
+}
+
+.danh-sach input [type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    accent-color: #6d28d9;
+    cursor: pointer;
+}
+
+.ten.viec{
+    flex: 1;
+    color: #333;
+}
+
+.ten.viec.xong{
+    text-decoration: line-through;
+    color: #9ca3af
+}
+
+.nut-xoa{
+    margin-left: auto;
+    background: #fde2e2;
+    color: #b91c1c;
+    border: none;
+    border-radius: 6px;
+    padding: 6px, 12px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.nut-xoa:hover{
+    background: #fbc4c4;
+}
+
+.thong-ke{
+    padding: 16px 24px 24px;
+    color: #6d28d9;
+    font-weight: bold;
+    margin: 0;
+}

@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('Nen.gif') repeat;
+    background-color: #f0f0f0;
+}
+
+.container{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.calendar-display{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.year{
+    color: #C62828 ;
+    font-size: 18;
+    font-weight: bold;
+    margin: 0;
+}
+
+.month{
+    color: #1565C0 ;
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.date{
+    color: #C62828;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1;
+}
+
+.day{
+    color: #1565C0;
+    font-size: 18px;
+    margin: 0;
+}
+
+.greeting{
+    color: #C62828;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.input-calendar{
+    border: 2px solid #1565C0;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    background-color: #547185;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    height: fit-content;
+}
+
+button:hover{
+    background-color: #3f5564;
+}
